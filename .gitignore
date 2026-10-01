@@ -1,0 +1,46 @@
+# dependencies
+
+node_modules/
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+
+# build
+dist/
+/build
+
+# env files
+.env
+.env.*
+!.env.example
+
+# supabase local
+.supabase/
+/supabase/.temp/
+/supabase/.branches/
+
+# testing
+/coverage
+
+# IDE
+.idea/
+.vscode/
+/.vercel/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.pem
+
+# debug
+npm-debug.log*
+*.log
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
